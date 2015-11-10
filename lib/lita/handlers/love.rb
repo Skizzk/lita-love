@@ -13,7 +13,7 @@ module Lita
         "❤"
       ]
 
-      route(/#{LOVE.join("|")}/i, :love)
+      route(/#{LOVE.join("|")}/i, :love, command: true)
 
       def love(r)
         r.reply(t("love", user: r.user.name))
