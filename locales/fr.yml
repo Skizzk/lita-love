@@ -1,0 +1,5 @@
+fr:
+  lita:
+    handlers:
+      love:
+        love: "Moi aussi je t'aime, %{user} !"
