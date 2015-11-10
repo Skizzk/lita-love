@@ -3,6 +3,7 @@ module Lita
     class Love < Handler
       LOVE = [
         "<3",
+        ":heart:",
         "i love you",
         "je t'aime",
         "dear",
